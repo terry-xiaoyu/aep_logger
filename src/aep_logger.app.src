@@ -1,0 +1,15 @@
+{application, aep_logger,
+ [{description, "AEP logger backend for writting log messages to files"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {aep_logger_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
